@@ -1,0 +1,148 @@
+﻿
+# Please enter the commit message for your changes. Lines starting
+# with '#' will be ignored, and an empty message aborts the commit.
+# On branch master
+# Changes to be committed:
+#	deleted:    Backup/FormEndGame.Designer.cs
+#	deleted:    Backup/FormEndGame.cs
+#	deleted:    Backup/FormEndGame.resx
+#	deleted:    Backup/FormGameSetting.Designer.cs
+#	deleted:    Backup/FormGameSetting.resx
+#	deleted:    Backup/FormMain.Designer.cs
+#	deleted:    Backup/FormMain.cs
+#	deleted:    Backup/FormMain.resx
+#	deleted:    Backup/FormPlayerName.Designer.cs
+#	deleted:    Backup/FormPlayerName.cs
+#	deleted:    Backup/GameSetting.cs
+#	deleted:    Backup/GraphItem.cs
+#	deleted:    Backup/Lines.csproj
+#	deleted:    Backup/Lines.csproj.user
+#	deleted:    Backup/Lines.sln
+#	deleted:    Backup/Lines.v12.suo
+#	deleted:    Backup/Program.cs
+#	deleted:    Backup/Properties/AssemblyInfo.cs
+#	deleted:    Backup/Properties/Resources.Designer.cs
+#	deleted:    Backup/Properties/Resources.resx
+#	deleted:    Backup/Properties/Settings.Designer.cs
+#	deleted:    Backup/Properties/Settings.settings
+#	deleted:    Backup/algorithms.txt
+#	deleted:    Backup/line.ico
+#	deleted:    Backup/soundvanish.wav
+#	deleted:    Backup/tush.wav
+#	modified:   Ballons.csproj
+#	new file:   Ballons.rar
+#	modified:   Ballons.v12.suo
+#	new file:   ClassDiagram1.png
+#	new file:   ClassDiagram2.cd
+#	new file:   Dokumentacja_wzor.docx
+#	renamed:    Backup/FormGameSetting.cs -> FormGameSetting.cs
+#	modified:   FormPlayerName.cs
+#	deleted:    Lines.suo
+#	modified:   bin/Debug/settings.lin
+#	new file:   html.zip
+#	new file:   html/html/_assembly_info_8cs.html
+#	new file:   html/html/_assembly_info_8cs_source.html
+#	new file:   html/html/_form_end_game_8_designer_8cs.html
+#	new file:   html/html/_form_end_game_8_designer_8cs_source.html
+#	new file:   html/html/_form_end_game_8cs.html
+#	new file:   html/html/_form_end_game_8cs_source.html
+#	new file:   html/html/_form_game_setting_8_designer_8cs.html
+#	new file:   html/html/_form_game_setting_8_designer_8cs_source.html
+#	new file:   html/html/_form_game_setting_8cs.html
+#	new file:   html/html/_form_game_setting_8cs_source.html
+#	new file:   html/html/_form_main_8_designer_8cs.html
+#	new file:   html/html/_form_main_8_designer_8cs_source.html
+#	new file:   html/html/_form_main_8cs.html
+#	new file:   html/html/_form_main_8cs_source.html
+#	new file:   html/html/_form_player_name_8_designer_8cs.html
+#	new file:   html/html/_form_player_name_8_designer_8cs_source.html
+#	new file:   html/html/_form_player_name_8cs.html
+#	new file:   html/html/_form_player_name_8cs_source.html
+#	new file:   html/html/_game_setting_8cs.html
+#	new file:   html/html/_game_setting_8cs_source.html
+#	new file:   html/html/_graph_item_8cs.html
+#	new file:   html/html/_graph_item_8cs_source.html
+#	new file:   html/html/_program_8cs.html
+#	new file:   html/html/_program_8cs_source.html
+#	new file:   html/html/_r_e_a_d_m_e_8md.html
+#	new file:   html/html/_r_e_a_d_m_e_8md_source.html
+#	new file:   html/html/_resources_8_designer_8cs.html
+#	new file:   html/html/_resources_8_designer_8cs_source.html
+#	new file:   html/html/_settings_8_designer_8cs.html
+#	new file:   html/html/_settings_8_designer_8cs_source.html
+#	new file:   html/html/_settings_8cs.html
+#	new file:   html/html/_settings_8cs_source.html
+#	new file:   html/html/annotated.html
+#	new file:   html/html/arrowdown.png
+#	new file:   html/html/arrowright.png
+#	new file:   html/html/bc_s.png
+#	new file:   html/html/bdwn.png
+#	new file:   html/html/class_ballons_1_1_data_recordsman-members.html
+#	new file:   html/html/class_ballons_1_1_data_recordsman.html
+#	new file:   html/html/class_ballons_1_1_form_end_game-members.html
+#	new file:   html/html/class_ballons_1_1_form_end_game.html
+#	new file:   html/html/class_ballons_1_1_form_end_game.png
+#	new file:   html/html/class_ballons_1_1_form_game_setting-members.html
+#	new file:   html/html/class_ballons_1_1_form_game_setting.html
+#	new file:   html/html/class_ballons_1_1_form_game_setting.png
+#	new file:   html/html/class_ballons_1_1_form_main-members.html
+#	new file:   html/html/class_ballons_1_1_form_main.html
+#	new file:   html/html/class_ballons_1_1_form_main.png
+#	new file:   html/html/class_ballons_1_1_form_main_1_1_sort_record_holders-members.html
+#	new file:   html/html/class_ballons_1_1_form_main_1_1_sort_record_holders.html
+#	new file:   html/html/class_ballons_1_1_form_main_1_1_sort_record_holders.png
+#	new file:   html/html/class_ballons_1_1_form_player_name-members.html
+#	new file:   html/html/class_ballons_1_1_form_player_name.html
+#	new file:   html/html/class_ballons_1_1_form_player_name.png
+#	new file:   html/html/class_ballons_1_1_game_setting-members.html
+#	new file:   html/html/class_ballons_1_1_game_setting.html
+#	new file:   html/html/class_ballons_1_1_global-members.html
+#	new file:   html/html/class_ballons_1_1_global.html
+#	new file:   html/html/class_ballons_1_1_graph_item-members.html
+#	new file:   html/html/class_ballons_1_1_graph_item.html
+#	new file:   html/html/classes.html
+#	new file:   html/html/closed.png
+#	new file:   html/html/dir_d051c76eebdc544d9c3d734575641c72.html
+#	new file:   html/html/doc.png
+#	new file:   html/html/doxygen.css
+#	new file:   html/html/doxygen.png
+#	new file:   html/html/dynsections.js
+#	new file:   html/html/files.html
+#	new file:   html/html/folderclosed.png
+#	new file:   html/html/folderopen.png
+#	new file:   html/html/functions.html
+#	new file:   html/html/functions_enum.html
+#	new file:   html/html/functions_func.html
+#	new file:   html/html/functions_prop.html
+#	new file:   html/html/functions_vars.html
+#	new file:   html/html/hierarchy.html
+#	new file:   html/html/index.hhc
+#	new file:   html/html/index.hhk
+#	new file:   html/html/index.hhp
+#	new file:   html/html/index.html
+#	new file:   html/html/jquery.js
+#	new file:   html/html/md_README.html
+#	new file:   html/html/namespace_ballons.html
+#	new file:   html/html/namespace_ballons_1_1_properties.html
+#	new file:   html/html/namespaces.html
+#	new file:   html/html/nav_f.png
+#	new file:   html/html/nav_g.png
+#	new file:   html/html/nav_h.png
+#	new file:   html/html/open.png
+#	new file:   html/html/pages.html
+#	new file:   html/html/splitbar.png
+#	new file:   html/html/sync_off.png
+#	new file:   html/html/sync_on.png
+#	new file:   html/html/tab_a.png
+#	new file:   html/html/tab_b.png
+#	new file:   html/html/tab_h.png
+#	new file:   html/html/tab_s.png
+#	new file:   html/html/tabs.css
+#	modified:   obj/Debug/Ballons.csproj.FileListAbsolute.txt
+#	new file:   obj/Debug/DesignTimeResolveAssemblyReferences.cache
+#	modified:   obj/Debug/DesignTimeResolveAssemblyReferencesInput.cache
+#	deleted:    obj/Release/linesk.FormEndGame.resources
+#	deleted:    obj/Release/linesk.FormGameSetting.resources
+#	deleted:    obj/Release/linesk.FormMain.resources
+#
+

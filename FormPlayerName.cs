@@ -5,7 +5,7 @@ using System.Windows.Forms;
 namespace Ballons
 {
     /// <summary>
-    /// Диалоговое окно изменения имени игрока
+    /// Okno dialogowe o zmianie nazwy gracza 
     /// </summary>
     public partial class FormPlayerName : Form
     {
@@ -25,12 +25,12 @@ namespace Ballons
 
         private void FormPlayerName_Load(object sender, EventArgs e)
         {
-            textBoxName.Text = PlayerName;          // Имя текущего игрока
-            graphItemIcon = new GraphItem(this);    // Графэлемент в качестве иконки
-            graphItemIcon.Visible = true;           // Геометрическая фигура видимая
-            graphItemIcon.Color = Color.Blue;       // Цвет фигуры
-            graphItemIcon.Active = true;            // Фигура пульсирует
-            graphItemIcon.CellCoordinate = new Rectangle(10, 10, 80, 80); // положение и размеры ячейки графэлемента
+            textBoxName.Text = PlayerName;          // Nazwa bieżącego gracza 
+            graphItemIcon = new GraphItem(this);    // Grafelement jako ikona
+            graphItemIcon.Visible = true;           // Geometria niewidoczne 
+            graphItemIcon.Color = Color.Blue;       // Kolor kształta
+            graphItemIcon.Active = true;            // Postać pulsuje 
+            graphItemIcon.CellCoordinate = new Rectangle(10, 10, 80, 80); // położenie i wymiary komórki grafelementa 
         }
 
         

@@ -4,13 +4,13 @@ using System.Windows.Forms;
 
 namespace Ballons
 {
-    // Класс модального окна настроек приложения.
+    // Okno modalne klasy aplikacji.
     public partial class FormGameSetting : Form
     {
         /// <summary>
-        /// Собственный конструктор
+        /// Własny konstruktor
         /// </summary>
-        /// <param name="parent">получим управление родительского окна</param>
+        /// <param name="parent">uzyskać nadrzędny okno zarządzania </param>
         public FormGameSetting(Control parent)
         {
             InitializeComponent();
@@ -60,19 +60,19 @@ namespace Ballons
         }
 
         /// <summary>
-        /// Для наглядности выбора цвета геометрической фигуры,
-        /// рисуем действующие модели фигур, 
-        /// рисуем в оконных элементах Label,
-        /// используя один обработчик события для всех Label,
-        /// отличаем по свойству Tag.
+        /// Dla jasności, kolor wybór kształtu geometrycznego,
+        /// Narysuj istniejącego modelu postaci,
+        /// Narysuj w oknie Label oznakowania,
+        /// za pomocą jednego programu obsługi zdarzeń dla wszystkich etykiet (label), 
+        /// Funkcja właściwości Tag. 
         /// </summary>
         private void labelBallColor_Paint(object sender, PaintEventArgs e)
         {
             Graphics g = e.Graphics;
 
             Label label = (Label)sender;
-            // В дизайнерском режиме свойству Tag можно присваивать только строковые значения,
-            // в режиме времени выполнения этому свойству можно присвоить любой объект.(пока)
+            // W trybie projektowania, może tylko przypisać Tag właściwość ciąg wartości, 
+            // w trybie wykonywania można ustawić tę właściwość do dowolnego obiektu. (jeszcze) 
             string tag = (string)label.Tag; 
             switch (tag)
             {
@@ -90,9 +90,9 @@ namespace Ballons
         }
 
         /// <summary>
-        /// Событие кнопок выбора цвета для геометрических фигур,
-        /// выбор кнопки для соответствующей геометрической фигуры 
-        /// осуществляется с помощью свойства tag,
+        /// Przyciski wyboru koloru zdarzenia dla kształtów geometrycznych, 
+        /// Wybierz przycisk do odpowiednich kształtów geometrycznych
+        /// odbywa się za pomocą 'tag' obiekt, 
         /// </summary>
         private void buttonsColors_Click(object sender, EventArgs e)
         {
@@ -100,8 +100,8 @@ namespace Ballons
             if (colorDlg.ShowDialog() == DialogResult.OK)
             {
                 Button button = (Button)sender;
-                // В дизайнерском режиме свойству Tag можно присваивать только строковые значения,
-                // в режиме времени выполнения этому свойству можно присвоить любой объект.(пока)
+                // W trybie projektowania, może tylko przypisać Tag właściwość ciąg wartości, 
+                // w trybie wykonywania można ustawić tę właściwość do dowolnego obiektu. (jeszcze) 
                 string tag = (string)button.Tag;
                 switch (tag)
                 {
@@ -122,7 +122,7 @@ namespace Ballons
         }
 
         /// <summary>
-        /// Выбор вида геометрической фигуры.
+        /// Wybierz typ kształtów geometrycznych. 
         /// </summary>
         private void radioButtonsGraphTypeItem_CheckedChanged(object sender, EventArgs e)
         {
@@ -149,8 +149,8 @@ namespace Ballons
 
         
         /// <summary>
-        /// Если пользователь выбрал тип графэлемента,
-        /// закрепим выбор нажатием кнопки ОК и обновим главное окно.
+        /// Jeśli użytkownik wybierze opcję typu grafelementa, 
+        /// naprawić swój wybór naciskając przycisk OK i zaktualizować okno główne. 
         /// </summary>
         private void buttonOK_Click(object sender, EventArgs e)
         {
@@ -159,9 +159,9 @@ namespace Ballons
         }
 
         /// <summary>
-        /// Если выбор отменен, возращаем предыдущие настройки.
-        /// Благодаря статической переменной GraphItem.CurrentTypeGraphItem
-        /// мы легко возвращаем прежний вид геометрической фигуры.
+        /// Jeśli wybór jest anulowany, wracamy poprzednie ustawienia. 
+        /// Dzięki zmiennej statycznej GraphItem.CurrentTypeGraphItem
+        /// Możemy łatwo powrócić były rodzaju kształty geometryczne.
         /// </summary>
         private void buttonCancel_Click(object sender, EventArgs e)
         {
@@ -171,8 +171,8 @@ namespace Ballons
 
         private void FormGameSetting_FormClosed(object sender, FormClosedEventArgs e)
         {
-            // Если окно просто закрыли, приравниваем это
-            // к отмене выбранных настроек.
+            // Jeśli właśnie zamknięte okna, utożsamiać ten 
+            // zniesienia wybranych ustawień.
             buttonCancel_Click(null, null);
         }
 
