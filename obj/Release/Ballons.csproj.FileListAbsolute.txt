@@ -1,0 +1,22 @@
+E:\Downloads\ВАЖНО!!!!\Lines\obj\Release\Ballons.csprojResolveAssemblyReference.cache
+E:\Downloads\ВАЖНО!!!!\Lines\obj\Release\linesk.FormMain.resources
+E:\Downloads\ВАЖНО!!!!\Lines\obj\Release\Ballons.Properties.Resources.resources
+E:\Downloads\ВАЖНО!!!!\Lines\obj\Release\linesk.FormEndGame.resources
+E:\Downloads\ВАЖНО!!!!\Lines\obj\Release\linesk.FormGameSetting.resources
+E:\Downloads\ВАЖНО!!!!\Lines\obj\Release\Ballons.csproj.GenerateResource.Cache
+E:\Downloads\ВАЖНО!!!!\Lines\obj\Release\Ballons.exe
+E:\Downloads\ВАЖНО!!!!\Lines\obj\Release\Ballons.pdb
+E:\Downloads\ВАЖНО!!!!\Lines\obj\Release\Ballons.FormMain.resources
+E:\Downloads\ВАЖНО!!!!\Lines\obj\Release\Ballons.FormEndGame.resources
+E:\Downloads\ВАЖНО!!!!\Lines\obj\Release\Ballons.FormGameSetting.resources
+E:\Downloads\ВАЖНО!!!!\Lines\bin\Release\Ballons.exe.config
+E:\Downloads\ВАЖНО!!!!\Lines\bin\Release\app.publish\Ballons.exe.config
+E:\сессия 4\program\Ballons\bin\Release\app.publish\Ballons.exe.config
+E:\сессия 4\program\Ballons\obj\Release\Ballons.exe
+E:\сессия 4\program\Ballons\obj\Release\Ballons.pdb
+E:\сессия 4\program\Ballons\obj\Release\Ballons.csprojResolveAssemblyReference.cache
+E:\сессия 4\program\Ballons\obj\Release\Ballons.FormMain.resources
+E:\сессия 4\program\Ballons\obj\Release\Ballons.Properties.Resources.resources
+E:\сессия 4\program\Ballons\obj\Release\Ballons.FormEndGame.resources
+E:\сессия 4\program\Ballons\obj\Release\Ballons.FormGameSetting.resources
+E:\сессия 4\program\Ballons\obj\Release\Ballons.csproj.GenerateResource.Cache

@@ -1,0 +1,5 @@
+﻿Algorytm wyczytywania przyznaczenia miejsta zawodnika. 
+	1. rozpoczyna się nowa gra - dodajemy gracza na szóste miejsce w tablice. 
+	2. po każdym chodzie sortujemy obiekt array graczy: 
+		1) Jeśli wskaźnik gracza spadł, on podnosi się w tabeli zawodników. 
+

@@ -1,0 +1,13 @@
+E:\Downloads\ВАЖНО!!!!\Lines\bin\Debug\Ballons.exe.config
+E:\Downloads\ВАЖНО!!!!\Lines\obj\Debug\Ballons.FormMain.resources
+E:\Downloads\ВАЖНО!!!!\Lines\obj\Debug\Ballons.Properties.Resources.resources
+E:\Downloads\ВАЖНО!!!!\Lines\obj\Debug\Ballons.FormEndGame.resources
+E:\Downloads\ВАЖНО!!!!\Lines\obj\Debug\Ballons.FormGameSetting.resources
+E:\Downloads\ВАЖНО!!!!\Lines\obj\Debug\Ballons.csproj.GenerateResource.Cache
+E:\сессия 4\program\Ballons\bin\Debug\Ballons.exe.config
+E:\сессия 4\program\Ballons\obj\Debug\Ballons.csprojResolveAssemblyReference.cache
+E:\сессия 4\program\Ballons\obj\Debug\Ballons.FormMain.resources
+E:\сессия 4\program\Ballons\obj\Debug\Ballons.Properties.Resources.resources
+E:\сессия 4\program\Ballons\obj\Debug\Ballons.FormEndGame.resources
+E:\сессия 4\program\Ballons\obj\Debug\Ballons.FormGameSetting.resources
+E:\сессия 4\program\Ballons\obj\Debug\Ballons.csproj.GenerateResource.Cache
